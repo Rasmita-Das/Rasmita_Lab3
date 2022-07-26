@@ -28,7 +28,7 @@ public class CheakBrackets {
 	         {
 	            if(stack.isEmpty() || stack.pop() != '(')
 	            {
-	               System.out.println("\nUnbalanced Parentheses!");
+	               System.out.println("\nThe entered Strings do not contain Balanced Brackets!");
 	               return;
 	            }
 	         }
@@ -36,7 +36,7 @@ public class CheakBrackets {
 	         {
 	            if(stack.isEmpty() || stack.pop() != '{')
 	            {
-	               System.out.println("\nUnbalanced Parentheses!");
+	               System.out.println("\nThe entered Strings do not contain Balanced Brackets!");
 	               return;
 	            }
 	         }
@@ -44,12 +44,12 @@ public class CheakBrackets {
 	         {
 	            if(stack.isEmpty() || stack.pop() != '[')
 	            {
-	               System.out.println("\nUnbalanced Parentheses!");
+	               System.out.println("\nThe entered Strings do not contain Balanced Brackets!");
 	               return;
 	            }
 	         }
 	      }
 	      if(stack.isEmpty())
-	         System.out.println("\nBalanced Parentheses.");
+	         System.out.println("\nThe entered String has Balanced Brackets.");
 	   }
 }
